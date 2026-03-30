@@ -29,11 +29,17 @@ Dada la naturaleza de los datos de Airbnb (Inside Airbnb), se realizaron las sig
 3. **Perfil de Propietarios**: Comparativa entre anfitriones particulares vs. empresas/propietarios multi-propiedad, mostrando la concentración del mercado en actores profesionales.
 4. **Análisis de Tipos de Propiedad**: Distribución entre departamentos completos, habitaciones privadas y habitaciones compartidas.
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 * `/Data`: Contiene muestras representativas de los datasets originales (debido a restricciones de tamaño de GitHub).
 * `/Images`: Capturas de pantalla del dashboard de Power BI.
-* `Airbnb_BuenosAires.pbix`: Archivo principal del reporte de Power BI.
+* `Airbnb_BuenosAires.pdf`: Archivo principal del reporte de Power BI en formato PDF.
 * `README.md`: Documentación del proyecto.
+  
+## Descarga del Proyecto
+Debido al tamaño del modelo de datos (200MB), el archivo de Power BI se encuentra alojado de forma externa:
+
+> [!IMPORTANT]
+> [**Descargar archivo .pbix desde Google Drive**](https://drive.google.com/file/d/16HSG8nj0PzLDLIp5Er_dp1nfVMwqmWLH/view?usp=sharing)
 
 ---
 **Daniel** | *Geólogo & Aspirante a Data Scientist*
