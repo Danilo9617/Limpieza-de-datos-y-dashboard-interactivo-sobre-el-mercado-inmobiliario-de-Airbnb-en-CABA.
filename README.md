@@ -18,8 +18,8 @@ Dada la naturaleza de los datos de Airbnb (Inside Airbnb), se realizaron las sig
 * **Clasificación de propietarios**: Identificación y segmentación entre particulares y empresas/anfitriones profesionales según número de propiedades listadas.
 
 ## Visualizaciones Principales
->![Vista general del dashboard](Images/captura_dashboard.png)
-![KPIs de cumplimiento legal](Images/kpis_legales.png)
+>![Vista general del dashboard](Images/Contexto.png)
+![KPIs de cumplimiento legal](Images/Cumplimiento.png)
 
 1. **Mapa de Calor**: Distribución geográfica de propiedades por barrio (Palermo, Recoleta, etc.) con segmentación por estado legal.
 2. **KPIs de Cumplimiento Legal**:
