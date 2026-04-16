@@ -1,45 +1,47 @@
 # Airbnb_BuenosAires
-# Análisis del Mercado de Airbnb en Buenos Aires: Cumplimiento Legal y Perfil de Propietarios 🇦🇷
+# Airbnb Market Analysis in Buenos Aires: Legal Compliance and Host Profiles 🇦🇷
 
-## Descripción del Proyecto
-Este proyecto analiza el ecosistema de alquileres temporales en la Ciudad Autónoma de Buenos Aires (CABA) desde la perspectiva del **cumplimiento normativo municipal**. El objetivo principal fue transformar datos crudos en un dashboard interactivo que permita identificar la situación legal de cada propiedad listada en Airbnb, revelando que la **mayoría de los propietarios son empresas** y que **más del 99% opera sin la licencia requerida** para trabajar legalmente.
+## Project Description
+This project analyzes the short-term rental ecosystem in the Autonomous City of Buenos Aires (CABA) through the lens of municipal regulatory compliance. The primary goal was to transform raw data into an interactive dashboard to identify the legal status of each property listed on Airbnb, revealing that the majority of hosts are corporations and over 99% operate without the legally required license.
 
-## Herramientas Utilizadas
-* **Power BI**: Creación de dashboard interactivo y modelado de datos.
-* **Power Query (M)**: Proceso de ETL (Extracción, Transformación y Carga).
-* **GitHub**: Control de versiones y documentación.
+## Tools used
+* **Power BI**: Interactive dashboard creation and data modeling.
+* **Power Query (M)**: ETL (Extract, Transform, and Load) process.
+* **GitHub**: Version control and documentation.
 
-## Proceso de Limpieza (ETL)
-Dada la naturaleza de los datos de Airbnb (Inside Airbnb), se realizaron las siguientes tareas de limpieza para asegurar la calidad del análisis:
-* **Tratamiento de nulos**: Gestión de reseñas y descripciones faltantes.
-* **Normalización de precios**: Conversión de tipos de datos y limpieza de caracteres especiales ($).
-* **Filtrado de Outliers**: Eliminación de registros con precios irreales para evitar sesgos en el promedio.
-* **Geocodificación**: Validación de barrios y coordenadas de Buenos Aires.
-* **Clasificación de propietarios**: Identificación y segmentación entre particulares y empresas/anfitriones profesionales según número de propiedades listadas.
+## ETL Process (Cleaning)
 
-## Visualizaciones Principales
+Given the nature of the data (sourced from Inside Airbnb), the following cleaning tasks were performed to ensure analysis quality:
+
+* **Null Treatment**: Management of missing reviews and descriptions.
+* **Price Normalization**: Data type conversion and cleaning of special characters ($).
+* **Outlier Filtering**: Removal of records with unrealistic prices to prevent average bias.
+* **Geocoding**: Validation of neighborhoods and coordinates within Buenos Aires.
+* **Host Classification**: Identification and segmentation between private individuals and companies/professional hosts based on the number of listed properties.
+
+## Key Visualizations
 >![Vista general del dashboard](Images/Contexto.png)
 ![KPIs de cumplimiento legal](Images/Cumplimiento.png)
 
-1. **Mapa de Calor**: Distribución geográfica de propiedades por barrio (Palermo, Recoleta, etc.) con segmentación por estado legal.
-2. **KPIs de Cumplimiento Legal**:
-   - % de propiedades **sin licencia** (~99%)
-   - % de propiedades **con licencia vigente**
-   - Número total de propiedades analizadas
-3. **Perfil de Propietarios**: Comparativa entre anfitriones particulares vs. empresas/propietarios multi-propiedad, mostrando la concentración del mercado en actores profesionales.
-4. **Análisis de Tipos de Propiedad**: Distribución entre departamentos completos, habitaciones privadas y habitaciones compartidas.
+1. **Heat Map**: Geographic distribution of properties by neighborhood (Palermo, Recoleta, etc.) with segmentation by legal status.
+2. **Legal Compliance KPIs**:
+   - % of properties without a license (~99%).
+   - % of properties with a valid license.
+   - Total number of properties analyzed.
+3. **Host Profiles**: Comparative analysis between private hosts vs. companies/multi-property owners, highlighting market concentration among professional actors.
+4. **Property Type Analysis**: Distribution between entire apartments, private rooms, and shared rooms.
 
-## Estructura del Repositorio
-* `/Data`: Contiene muestras representativas de los datasets originales (debido a restricciones de tamaño de GitHub).
-* `/Images`: Capturas de pantalla del dashboard de Power BI.
-* `Airbnb_BuenosAires.pdf`: Archivo principal del reporte de Power BI en formato PDF.
-* `README.md`: Documentación del proyecto.
+## Repository Structure
+* `/Data`: Contains representative samples of the original datasets (due to GitHub size restrictions).
+* `/Images`: Screenshots of the Power BI dashboard.
+* `Airbnb_BuenosAires.pdf`: Main report file in PDF format.
+* `README.md`: Project documentation.
   
-## Descarga del Proyecto
-Debido al tamaño del modelo de datos (200MB), el archivo de Power BI se encuentra alojado de forma externa:
+## Project Download
+Due to the size of the data model (200MB), the Power BI file is hosted externally:
 
 > [!IMPORTANT]
 > [**Descargar archivo .pbix desde Google Drive**](https://drive.google.com/file/d/16HSG8nj0PzLDLIp5Er_dp1nfVMwqmWLH/view?usp=sharing)
 
 ---
-**Daniel** | *Geólogo & Aspirante a Data Scientist*
+**Daniel** | *Data Analyst | MSc Big Data Science (UNAV) | AWS Certified Cloud Practitioner*
